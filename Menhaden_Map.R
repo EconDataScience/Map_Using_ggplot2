@@ -5,7 +5,7 @@ library(usmap)
 library(scales)
 library(tidyverse)
 library(unikn)
-setwd("G:/My Drive/Menhaden_CEP_Paper")
+setwd("G:/where/files/are/located")
 Quota <- read.csv(file = 'G:/My Drive/Menhaden_CEP_Paper/Menhaden_Map.csv')
 MainStates <- map_data("state")
 East_Coast <- subset(MainStates, region %in%  
